@@ -6,6 +6,10 @@ describe('fizzbuzz', function () {
     expect(fizzbuzz(0)).to.equal('fizzbuzz');
   });
 
+  it('returns an empty string given 1', function () {
+    expect(fizzbuzz(1)).to.equal('');
+  });
+
   it('returns fizz given 3', function () {
     expect(fizzbuzz(3)).to.equal('fizz');
   });
