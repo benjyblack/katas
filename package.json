@@ -1,0 +1,20 @@
+{
+  "name": "katas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "author": "Ben Black",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "devDependencies": {
+  }
+}
